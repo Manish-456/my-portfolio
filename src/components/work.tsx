@@ -36,7 +36,7 @@ export default function Work() {
    
    }
   </div>
-   <button className='mt-6 text-sm text-gray-200 hover:bg-gray-800 flex items-center justify-center text-[15px] px-4 py-2 w-full bg-gray-900'>
+   <button className='mt-6 text-sm bg-slate-600 rounded-md  font-base text-gray-200 hover:bg-gray-500 flex items-center justify-center text-[15px] px-4 py-2 w-full '>
     Download CV 
     <MoveDown className='h-4 w-4 ml-2' />
    </button>

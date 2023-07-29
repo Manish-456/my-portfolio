@@ -12,7 +12,7 @@ export default function ProjectCard({
 } : ProjectCardProps) {
    const ProjectIcon = Icons[project.icon];
   return (
-    <div className=' dark:hover:bg-slate-800 rounded-md max-w-md w-full max-h-sm h-full flex flex-col p-4 space-y-4'>
+    <div className=' hover:bg-gray-500/[0.1] rounded-md max-w-md w-full max-h-sm h-full flex flex-col p-4 space-y-4'>
      <div className="relative h-[36px] rounded-full  dark:border-gray-500/[0.5] flex items-center justify-center dark:border-2 w-[36px]">
        <ProjectIcon className='dark:ring-2  rounded-full h-8 w-8  dark:ring-gray-800'  />
      </div>
