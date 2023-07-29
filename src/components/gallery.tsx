@@ -26,7 +26,7 @@ export const images = [
 
 export default function Gallery() {
   return (
-    <div className=' justify-start sm:justify-center mt-4 sm:mt-8 flex flex-row  space-y-2  items-center space-x-4 md:space-x-8 inset-x-0'>
+    <div className=' justify-start sm:justify-center mt-4 sm:mt-8 flex flex-row  space-y-2  items-center space-x-2 md:space-x-8 inset-x-0'>
      {
         images.map(image => (
             <div key={image.src} className={`relative shrink-0 aspect-square  lg:w-64 w-28 h-28 sm:w-48 sm:h-48 lg:h-64 ${image.additionalClass}`}>

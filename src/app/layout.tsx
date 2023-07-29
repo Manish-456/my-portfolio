@@ -23,9 +23,9 @@ export default function RootLayout({
        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 
       <main>
-    <div className="md:max-w-7xl max-w-full bg-zinc-50 w-full dark:bg-slate-900/[0.9] md:mx-auto p-2 ">
+    <div className="md:max-w-7xl max-w-full bg-zinc-50 w-full dark:bg-slate-900/[0.9] md:mx-auto p-0 ">
      <Navbar/>
-     <div className="relative p-4 sm:p-8">
+     <div className="relative p-1 sm:p-8">
      {children}
 
      </div>
