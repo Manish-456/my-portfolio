@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <div className="max-w-full md:max-w-7xl w-full mx-auto ">
-        <div className="p-2 sm:p-8">
+        <div className=" py-8 px-4 sm:px-6">
           <div className="flex flex-col space-y-8">
             <div className="relative h-16 w-16 shrink-0">
               <Image

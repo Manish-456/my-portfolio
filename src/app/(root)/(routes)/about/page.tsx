@@ -9,7 +9,7 @@ type Props = {};
 
 export default function page({}: Props) {
   return (
-    <div className="mt-8 py-8 px-6">
+    <div className="mt-8 py-8 px-4 sm:px-6">
       <div className="flex-auto">
         <div className="relative">
           <div className="mx-auto max-w-2xl md:max-w-5xl w-full">
